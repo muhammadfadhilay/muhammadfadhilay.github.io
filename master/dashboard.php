@@ -1,10 +1,10 @@
 <?php
     session_start();
     if( !isset($_SESSION["submit"])){
-        header("Location: login.php");
+        header("Location: ../login.php");
     exit;
     }
-    require 'koneksi.php';
+    require '../koneksi.php';
 
 ?>
 
@@ -62,7 +62,7 @@
       <body>
         <div>
           <div class="sidebar p-4 bg-primary" id="sidebar">
-            <a href="../index.php"><h4 style = text-align:center; class="mb-5 text-white">Perpustakaan SMK Negeri Labuang</h4></a>
+            <a href="../master/dashboard.php"><h4 style = text-align:center; class="mb-5 text-white">Perpustakaan SMK Negeri Labuang</h4></a>
             <li>
               <a class="text-white" href="../view/judulbuku.php">
                 <i class="bi bi-journal-richtext mr-2"></i>

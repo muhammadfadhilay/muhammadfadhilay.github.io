@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        include '../index.php';
+        include '../master/dashboard.php';
     ?>
         <h1>Buku Recommended</h1>
     </div>

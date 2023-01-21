@@ -8,9 +8,9 @@
 </head>
 <body>
     <?php
-        include '../index.php';
+        include '../master/dashboard.php';
     ?>
-        <h1>Riwayat Peminjamans</h1>
+        <h1>Riwayat Peminjaman</h1>
     </div>
 </body>
 </html>
