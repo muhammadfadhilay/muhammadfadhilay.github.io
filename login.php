@@ -1,7 +1,7 @@
 <?php
     session_start();
 	if( isset($_SESSION["submit"])){
-		header("Location: dashboard.php");
+		header("Location: master/dashboard.php");
 		exit;
 	}
 
@@ -18,7 +18,7 @@
 			if( password_verify($password, $row["password"])){
 				
 				$_SESSION["submit"] = true;
-				header("Location: dashboard.php");
+				header("Location: master/dashboard.php");
 				exit;
 			}
 		}

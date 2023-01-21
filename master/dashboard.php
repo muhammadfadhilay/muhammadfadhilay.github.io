@@ -1,10 +1,10 @@
 <?php
     session_start();
     if( !isset($_SESSION["submit"])){
-        header("Location: login.php");
+        header("Location: ../login.php");
     exit;
     }
-    require 'koneksi.php';
+    require '../koneksi.php';
 
 ?>
 
@@ -64,19 +64,19 @@
           <div class="sidebar p-4 bg-primary" id="sidebar">
             <h4 style = text-align:center; class="mb-5 text-white">Perpustakaan SMK Negeri Labuang</h4>
             <li>
-              <a class="text-white" href="#">
+              <a class="text-white" href="../view/judulbuku.php">
                 <i class="bi bi-journal-richtext mr-2"></i>
                 Judul Buku
               </a>
             </li>
             <li>
-              <a class="text-white" href="#">
+              <a class="text-white" href="../view/riwayatpinjam.php">
                 <i class="bi bi-fire mr-2"></i>
                 Riwayat Peminjaman
               </a>
             </li>
             <li>
-              <a class="text-white" href="#">
+              <a class="text-white" href="../view/bukurecommended.php">
               <i class="bi bi-journal-bookmark mr-2"></i>
                 Buku Recommended
               </a>
@@ -88,9 +88,9 @@
               </a>
             </li>
             <li>
-              <a class="text-white" href="#">
-                <i class="bi bi-box-arrow-left"></i>
-                <a href="logout.php">Logout</a>
+              <a class="text-white" href="../logout.php">
+                <i class="bi bi-box-arrow-left mr-2"></i>
+                Logout
               </a>
             </li>
           </div>
@@ -104,17 +104,6 @@
             Fadhil AY
         </a>
         </nav>
-          <div class="card mt-5">
-            <div class="card-body">
-              <h4>Lorem Ipsum</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-                animi maxime at minima. Totam vero omnis ducimus commodi placeat
-                accusamus, repudiandae nemo, harum magni aperiam esse voluptates.
-                Non, sapiente vero?
-              </p>
-            </div>
-          </div>
         </div>
     
         <script>
