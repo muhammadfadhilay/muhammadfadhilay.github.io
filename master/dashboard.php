@@ -13,7 +13,7 @@
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Rule Library</title>
+        <title>Dashboard</title>
         <!-- bootstrap 5 css -->
         <link
           rel="stylesheet"
@@ -62,7 +62,7 @@
       <body>
         <div>
           <div class="sidebar p-4 bg-primary" id="sidebar">
-            <h4 style = text-align:center; class="mb-5 text-white">Perpustakaan SMK Negeri Labuang</h4>
+            <a href="../master/dashboard.php"><h4 style = text-align:center; class="mb-5 text-white">Perpustakaan SMK Negeri Labuang</h4></a>
             <li>
               <a class="text-white" href="../view/judulbuku.php">
                 <i class="bi bi-journal-richtext mr-2"></i>
@@ -101,10 +101,9 @@
             <button class="btn btn-primary" id="button-toggle">
                 <i class="bi bi-list"></i>
             </button>
-            Fadhil AY
+            Selamat datang Fadhil
         </a>
         </nav>
-        </div>
     
         <script>
     
