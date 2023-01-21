@@ -95,7 +95,7 @@
             </li>
           </div>
         </div>
-        <div class="p-4" id="main-content">
+        <div class="p-2" id="main-content">
         <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand">
             <button class="btn btn-primary" id="button-toggle">
