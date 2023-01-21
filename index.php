@@ -88,7 +88,7 @@
               </a>
             </li>
             <li>
-              <a class="text-white" href="logout.php">
+              <a class="text-white" href="../logout.php">
                 <i class="bi bi-box-arrow-left mr-2"></i>
                 Logout
               </a>
