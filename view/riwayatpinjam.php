@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        include '../master/dashboard.php';
+        include '../index.php';
     ?>
         <h1>Riwayat Peminjamans</h1>
     </div>

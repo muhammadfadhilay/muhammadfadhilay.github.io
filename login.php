@@ -1,7 +1,7 @@
 <?php
     session_start();
 	if( isset($_SESSION["submit"])){
-		header("Location: master/dashboard.php");
+		header("Location: index.php");
 		exit;
 	}
 
@@ -19,7 +19,7 @@
 				
 				$_SESSION['username'] = $username;
 				$_SESSION["submit"] = true;
-				header("Location: master/dashboard.php");
+				header("Location: index.php");
 				exit;
 			}
 		}
