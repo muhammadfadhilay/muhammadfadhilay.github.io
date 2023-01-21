@@ -87,6 +87,12 @@
                 Settings
               </a>
             </li>
+            <li>
+              <a class="text-white" href="#">
+                <i class="bi bi-box-arrow-left"></i>
+                <a href="logout.php">Logout</a>
+              </a>
+            </li>
           </div>
         </div>
         <div class="p-4" id="main-content">
@@ -107,7 +113,6 @@
                 accusamus, repudiandae nemo, harum magni aperiam esse voluptates.
                 Non, sapiente vero?
               </p>
-              <a href="logout.php">Logout</a>
             </div>
           </div>
         </div>
