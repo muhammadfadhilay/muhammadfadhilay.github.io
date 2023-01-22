@@ -95,15 +95,15 @@
             </li>
           </div>
         </div>
-        <div class="p-2" id="main-content">
-        <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">
-            <button class="btn btn-primary" id="button-toggle">
-                <i class="bi bi-list"></i>
-            </button>
-            Selamat datang Fadhil
-        </a>
-        </nav>
+        <div class="p-0" id="main-content">
+            <nav class="navbar navbar-light bg-light" style="position: fixed; width:100%; z-index:1000;">
+              <a class="navbar-brand">
+                  <button class="btn btn-primary ml-3" id="button-toggle">
+                      <i class="bi bi-list"></i>
+                  </button>
+                  Selamat datang Fadhil
+              </a>
+            </nav>
     
         <script>
     

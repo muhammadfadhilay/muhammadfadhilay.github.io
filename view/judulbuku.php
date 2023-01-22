@@ -10,7 +10,42 @@
     <?php
         include '../master/dashboard.php';
     ?>
-        <h1>Judul Buku</h1>
+    <h5 class="pt-5" style="text-align: center;"><br> Silahkan pilih logo sesuai dengan kategori buku yang dicari</h5>
+    <div class="p-3" id="main-content">
+        <div class="row ml-5">
+            <div class="card" style="width: 14rem;">
+                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card ml-4" style="width: 14rem;">
+                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card ml-4" style="width: 14rem;">
+                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card ml-4" style="width: 14rem;">
+                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+            </div>
+        </div>
+        <div class="row ml-5">
+            <div class="card mt-3" style="width: 14rem;">
+                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card mt-3 ml-4" style="width: 14rem;">
+                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card mt-3 ml-4" style="width: 14rem;">
+                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card mt-3 ml-4" style="width: 14rem;">
+                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+            </div>
+        </div>
+        <div class="row ml-5">
+            <div class="card mt-3" style="width: 14rem;">
+                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+            </div>
+        </div>
+      </div>
     </div>
 </body>
 </html>
