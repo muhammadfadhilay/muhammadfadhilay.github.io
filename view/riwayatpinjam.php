@@ -10,7 +10,6 @@
     <?php
         include '../master/dashboard.php';
     ?>
-        <h1>Riwayat Peminjaman</h1>
     </div>
 </body>
 </html>
