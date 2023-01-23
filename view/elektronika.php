@@ -14,16 +14,10 @@
     <div class="p-3" id="main-content">
         <div class="row ml-5">
             <div class="card" style="width: 14rem;">
-                <a href="../dataset/tkj.php"><img src="../images/TKJ.png" class="card-img-top" alt="..."></a>
+                <a href="../dataset/multimedia.php"><img src="../images/multimedia.jpg" class="card-img-top" alt="..."></a>
             </div>
             <div class="card ml-4" style="width: 14rem;">
-                <a href="../dataset/rpl.php"><img src="../images/rpl.jpg" class="card-img-top" alt="..."></a>
-            </div>
-            <div class="card ml-4" style="width: 14rem;">
-                <a href="elektronika.php"><img src="../images/elektro.jpg" class="card-img-top" alt="..."></a>
-            </div>
-            <div class="card ml-4" style="width: 14rem;">
-                <a href="otomotif.php"><img src="../images/otomotif.jpg" class="card-img-top" alt="..."></a>
+                <a href="../dataset/tav.php"><img src="../images/tav.jpg" class="card-img-top" alt="..."></a>
             </div>
         </div>
       </div>

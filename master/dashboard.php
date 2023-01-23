@@ -1,7 +1,7 @@
 <?php
     session_start();
-    if( !isset($_SESSION["submit"])){
-        header("Location: ../login.php");
+    if( !isset($_SESSION["nama"])){
+        header("Location: ../index.php");
     exit;
     }
     require '../koneksi.php';
@@ -101,7 +101,7 @@
                   <button class="btn btn-primary ml-3" id="button-toggle">
                       <i class="bi bi-list"></i>
                   </button>
-                  Selamat datang Fadhil
+                  <?php echo "Selamat Datang, " . $_SESSION['nama'] ."!". ""; ?>
               </a>
             </nav>
     

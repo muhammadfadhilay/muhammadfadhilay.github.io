@@ -1,30 +1,26 @@
 <?php
     session_start();
-	if( isset($_SESSION["submit"])){
+	
+	require 'koneksi.php';
+	
+	if (isset($_SESSION['nama'])) {
 		header("Location: master/dashboard.php");
-		exit;
 	}
-
-	require 'koneksi.php'; 
-
-    if ( isset($_POST['submit'])) {
-        $username = $_POST['username'];
-        $password = ($_POST['password']);
-    
-        $result = mysqli_query($conn, "SELECT * FROM tb_login WHERE username = '$username'");
-
-		if( mysqli_num_rows($result) === 1){
+	
+	if (isset($_POST['submit'])) {
+		$username = $_POST['username'];
+		$password = md5($_POST['password']);
+	
+		$sql = "SELECT * FROM tb_login WHERE username='$username' AND password='$password'";
+		$result = mysqli_query($conn, $sql);
+		if ($result->num_rows > 0) {
 			$row = mysqli_fetch_assoc($result);
-			if( password_verify($password, $row["password"])){
-				
-				$_SESSION['username'] = $username;
-				$_SESSION["submit"] = true;
-				header("Location: master/dashboard.php");
-				exit;
-			}
-		}
-		$error = true;
-    }
+			$_SESSION['nama'] = $row['nama'];
+			header("Location: master/dashboard.php");
+		} 
+	$error = true;	
+}
+ 
 ?>
 
 <!doctype html>
@@ -41,7 +37,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	</head>
-	<body class="img js-fullheight" style="background-image: url(images/bg.jpg);">
+	<body class="img js-fullheight" style="background-image: url(images/bg_login.jpg);">
 	<section class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center">

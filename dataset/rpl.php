@@ -17,7 +17,7 @@
                 <thead>
                     <tr>
                     <th scope="col">No</th>
-                    <th scope="col">Judul Buku TKJ</th>
+                    <th scope="col">Judul Buku RPL</th>
                     <th scope="col">Jumlah Eksemplar</th>
                     </tr>
                 </thead>
@@ -25,7 +25,7 @@
                 <?php
                 
                 $no=1;
-                $ambildata = mysqli_query($conn, "SELECT * FROM tb_book_tkj");
+                $ambildata = mysqli_query($conn, "SELECT * FROM tb_book_rpl");
                 while ($tampil = mysqli_fetch_array($ambildata)){
                     $warna = ($no%2==1)?"white":"#eee";
                     echo"

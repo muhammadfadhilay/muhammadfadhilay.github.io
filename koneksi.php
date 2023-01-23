@@ -35,7 +35,7 @@ if (!$conn) {
             return false;
         }
         
-        $password = password_hash($password, PASSWORD_DEFAULT);
+        $password = md5($password);
 
         mysqli_query($conn, "INSERT INTO tb_login VALUES ('','$nama','$username','$password','$kelas')");
 

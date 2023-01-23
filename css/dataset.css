@@ -1,0 +1,10 @@
+thead{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    text-align: center;
+}    
+
+tbody{
+    text-align: center;
+}

@@ -2,7 +2,7 @@
     require 'koneksi.php';
     if ( isset($_POST["register"])){
         if( registrasi($_POST) > 0){
-            header("Location: login.php");
+            header("Location: index.php");
         }
         else{
             echo mysqli_error($conn);
@@ -34,7 +34,7 @@
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="css/main1.css" rel="stylesheet" media="all">
 </head>
 
 <body>
