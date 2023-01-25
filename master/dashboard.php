@@ -62,7 +62,7 @@
       <body>
         <div>
           <div class="sidebar p-4 bg-primary" id="sidebar">
-            <a href="../master/dashboard.php"><h4 style = text-align:center; class="mb-5 text-white">Perpustakaan SMK Negeri Labuang</h4></a>
+            <a href="../view/dashboard.php"><h4 style = text-align:center; class="mb-5 text-white">Perpustakaan SMK Negeri Labuang</h4></a>
             <li>
               <a class="text-white" href="../view/judulbuku.php">
                 <i class="bi bi-journal-richtext mr-2"></i>
@@ -98,7 +98,7 @@
         <div class="p-0" id="main-content">
             <nav class="navbar navbar-light bg-light" style="position: fixed; width:100%; z-index:1000;">
               <a class="navbar-brand">
-                  <button class="btn btn-primary ml-3" id="button-toggle">
+                  <button class="btn btn-primary ml-1" id="button-toggle">
                       <i class="bi bi-list"></i>
                   </button>
                   <?php echo "Selamat Datang, " . $_SESSION['nama'] ."!". ""; ?>

@@ -4,7 +4,7 @@
 	require 'koneksi.php';
 	
 	if (isset($_SESSION['nama'])) {
-		header("Location: master/dashboard.php");
+		header("Location: view/dashboard.php");
 	}
 	
 	if (isset($_POST['submit'])) {
@@ -16,7 +16,7 @@
 		if ($result->num_rows > 0) {
 			$row = mysqli_fetch_assoc($result);
 			$_SESSION['nama'] = $row['nama'];
-			header("Location: master/dashboard.php");
+			header("Location: view/dashboard.php");
 		} 
 	$error = true;	
 }

@@ -11,8 +11,10 @@
         include '../master/dashboard.php';
     ?>
     <h5 class="pt-5" style="text-align: center;"><br> Silahkan pilih logo sesuai dengan kategori buku yang dicari</h5>
-    <div class="p-3" id="main-content">
-        <div class="row ml-5">
+    <div class="p-5" id="main-content">
+        <a class="btn btn-primary" href="judulbuku.php" role="button">Kembali</a>
+    <br><br>
+        <div class="row ml-0">
             <div class="card" style="width: 14rem;">
                 <a href="../dataset/multimedia.php"><img src="../images/multimedia.jpg" class="card-img-top" alt="..."></a>
             </div>

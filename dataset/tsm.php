@@ -13,6 +13,8 @@
     ?>
         <div class="p-5">
             <br><br>
+            <a class="btn btn-primary" href="../view/otomotif.php" role="button">Kembali</a>
+            <br><br>
             <table class="table table-striped">
                 <thead>
                     <tr>
